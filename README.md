@@ -3,6 +3,9 @@
 A short excercise in python string manipulation to make a mini literal 
 translation app
 
+Open the example notebook in binder.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rwlambert/twocrows/HEAD?filepath=notebooks%2Fexample.ipynb)
+
 # why?
 
 I was running a little role-playing game, where the group encountered a 
