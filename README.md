@@ -30,13 +30,14 @@ import and run it:
 
 ```python
 >>> from twocrows import twocrows as tc
+>>> mytc = tc()
 
->>> tc.learn("that this phrase should be translated", "to this one")
+>>> mytc.learn("that this phrase should be translated", "to this one")
 
->>> tc.translate("that this phrase should be translated")
+>>> mytc.translate("that this phrase should be translated")
 ["to this one"]
 
->>> tc.translate_r("to this one")
+>>> mytc.translate_r("to this one")
 ["that this phrase should be translated"]
 ```
 
@@ -52,7 +53,7 @@ back is a _list_ of parts of the message in order, tokenized by what could be
 translated and what could not be, e.g.
 
 ```python
->>> tc.translate("please to translate this idiomatic phrase please thanks")
+>>> mytc.translate("please to translate this idiomatic phrase please thanks")
 ["please","into this one","please thanks"]
 ```
 
