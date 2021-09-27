@@ -5,7 +5,7 @@ translation app
 
 # why?
 
-I was running a little role=playing game, where the group encountered a 
+I was running a little role-playing game, where the group encountered a 
 race of peoples like the tamarians from TNG, who spoke only in allegory 
 i.e. ising long idomatic phrases in the place of nouns and verbs.
 
