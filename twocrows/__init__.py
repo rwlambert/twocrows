@@ -12,14 +12,14 @@ Instantiate your class, and then teach it all the translations you know so far
 >>> from twocrows import twocrows as tc
 >>> mytc = tc()
 
->>> tc.learn("to translate this idiomatic phrase", "into this one")
+>>> mytc.learn("to translate this idiomatic phrase", "into this one")
 
 Then use this class to translate back and forth
 
->>> tc.translate("to translate this idiomatic phrase")
+>>> mytc.translate("to translate this idiomatic phrase")
 ["into this one"]
 
->>> tc.translate_r("into this one")
+>>> mytc.translate_r("into this one")
 ["to translate this idiomatic phrase"]
 
 This translation is greedy, in that it will start by looking for the longest string it 
@@ -43,7 +43,7 @@ translated and what could not be, e.g.
 #
 #       http://www.apache.org/licenses/LICENSE-2.0
 ##################################
-import re, copy, pprint, bisect
+import re, copy, pprint
 
 
 class twocrows:
