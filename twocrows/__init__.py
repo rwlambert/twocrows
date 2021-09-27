@@ -29,7 +29,7 @@ When using the translate and translate_r functions, what you will get
 back is a _list_ of parts of the message in order, tokenized by what could be
 translated and what could not be, e.g.
 
->>> tc.translate("please to translate this idiomatic phrase please thanks")
+>>> mytc.translate("please to translate this idiomatic phrase please thanks")
 ["please","into this one","please thanks"]
 
 
