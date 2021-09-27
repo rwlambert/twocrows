@@ -6,8 +6,8 @@ translation app
 # why?
 
 I was running a little role-playing game, where the group encountered a 
-race of peoples like the tamarians from TNG, who spoke only in allegory 
-i.e. ising long idomatic phrases in the place of nouns and verbs.
+race of peoples reminiscent the tamarians from TNG, who spoke only in allegory 
+i.e. using long idomatic phrases in the place of simple nouns and verbs.
 
 The players requested a translation app they could use to make their
 lives easier in terms of remembering the translations they already had worked out.
